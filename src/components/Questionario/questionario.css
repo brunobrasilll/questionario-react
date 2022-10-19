@@ -17,7 +17,7 @@ a {
     text-transform: uppercase;
 }
 
-a:hover{
+nav a:hover{
    border-bottom: 4px solid rgba(0, 0, 0, 26);
 }
 
@@ -273,7 +273,7 @@ div{
     margin-top: 10px;
     position: absolute;
     left: 52%;
-    margin-left: 8px;
+    margin-left: 18px;
 }
 
 .icon-perfil:hover {

@@ -5,6 +5,7 @@ import HomeIcon from "./img/home.png";
 import NotificationIcon from "./img/notification.png";
 import IconPerfil from "./img/foto-perfil.png";
 import NextIcon from "./img/next.png"
+import { Link } from "react-router-dom";
 
 export default function Questionario() {
   return (
@@ -48,7 +49,7 @@ export default function Questionario() {
 
           <div class="perguntas">
             <div class="titulo-perguntas">
-              <h3>Eu tenho objetivos pessoais.</h3>
+              <h3>Meu trabalho é Significativo.</h3>
             </div>
             <div class="container-perguntas">
                 <div class="concordo">
@@ -70,7 +71,7 @@ export default function Questionario() {
           </div>
             <div class="perguntas">
                     <div class="titulo-perguntas">
-                    <h3>Eu Aprendo coisas novas constantemente.</h3>
+                    <h3>Eu me sinto animado para trabalhar.</h3>
                     </div>
                     <div class="container-perguntas">
                         <div class="concordo">
@@ -93,7 +94,7 @@ export default function Questionario() {
 
             <div class="perguntas">
                 <div class="titulo-perguntas">
-                <h3>Eu acho dificil me apresentar para outras pessoas.</h3>
+                <h3>Eu gosto de usar ferramentas de organização como agendas e listas..</h3>
                 </div>
                 <div class="container-perguntas">
                     <div class="concordo">
@@ -116,7 +117,7 @@ export default function Questionario() {
 
             <div class="perguntas">
                 <div class="titulo-perguntas">
-                <h3>As minhas metas e responsabilidades são claras.</h3>
+                <h3>Mesmo um pequeno erro pode fazer com que eu duvide de minhas habilidades e conhecimentos gerais.</h3>
                 </div>
                 <div class="container-perguntas">
                     <div class="concordo">
@@ -139,7 +140,7 @@ export default function Questionario() {
             
             <div class="perguntas">
                 <div class="titulo-perguntas">
-                <h3>Eu tento responder os meus e-mails o mais rapidamente possível e não suporto uma caixa de entrada bagunçada.</h3>
+                <h3>Eu gosto de participar de atividades em grupo.</h3>
                 </div>
                 <div class="container-perguntas">
                     <div class="concordo">
@@ -162,7 +163,9 @@ export default function Questionario() {
 
             <div class='container-botao'>
 
+            <Link to="/questionario3">
               <button type="button" class='botao bounce-effect' ><span>Próximo</span></button>
+            </Link>
               <img src={NextIcon}></img>
             
             </div>
