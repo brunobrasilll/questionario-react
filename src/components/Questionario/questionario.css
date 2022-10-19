@@ -1,6 +1,7 @@
 body {
     background-color: #D8D8D8;
     @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+    scroll-behavior: smooth;
 }
 
 
@@ -283,4 +284,8 @@ div{
 .bounce-effect:hover{
     width: 285px;
     height: 81px;
+}
+
+::-webkit-scrollbar {
+    border: #101026;
 }

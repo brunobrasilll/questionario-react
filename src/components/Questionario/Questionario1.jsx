@@ -165,14 +165,14 @@ export default function Questionario() {
             <div class='container-botao'>
 
               <Link to="/questionario2">
-              <button type="button" class='botao bounce-effect' ><span>Próximo</span></button>
+              <button type="button" class='botao bounce-effect' id="btnTop" onClick="backToTop();"><span>Próximo</span></button>
               </Link>
               <img src={NextIcon}></img>
             
             </div>
 
         </div>
-        
+
       </main>
     </>
   );
